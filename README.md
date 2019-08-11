@@ -17,7 +17,7 @@ Windows
 
 VPS
 -------
-1. Aquire a VPS. An hourly billed one is best since you can destroy it when you are done and only pay a few cents. Use (this)[https://m.do.co/c/8ce473986d41] link to get $50 at DigitalOcean. Choose Ubuntu as the OS and a location that is close to the agar.io region.
+1. Aquire a VPS. An hourly billed one is best since you can destroy it when you are done and only pay a few cents. Use [this](https://m.do.co/c/8ce473986d41) link to get $50 at DigitalOcean. Choose Ubuntu as the OS and a location that is close to the agar.io region.
 2. Run `install.sh`
 3. Run 
     - `node server.js` for slower but safer bot joins
