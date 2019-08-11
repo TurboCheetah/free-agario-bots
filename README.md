@@ -7,13 +7,14 @@ Free open source agar.io bots
 
 Windows
 -------
-1. Run `install.bat`
-2. Run 
+1. Install NodeJS from [here](https://nodejs.org).
+2. Run `install.bat`
+3. Run 
     - `server.bat` for slower but safer bot joins
     - `server-fast.bat` for faster bot joins (HIGHER RISK OF CAPTCHA)
-3. Copy and paste the contents of either [free-agario-bots.vanilla.user.js](https://raw.githubusercontent.com/TurboCheetah/free-agario-bots/master/free-agario-bots.ogario.user.js) or [free-agario-bots.ogario.user.js](https://raw.githubusercontent.com/TurboCheetah/free-agario-bots/master/free-agario-bots.vanilla.user.js) into Tampermonkey and save
-4. Go to [agar.io](https://agar.io) and click connect
-5. Click play and then connect
+4. Copy and paste the contents of either [free-agario-bots.vanilla.user.js](https://raw.githubusercontent.com/TurboCheetah/free-agario-bots/master/free-agario-bots.ogario.user.js) or [free-agario-bots.ogario.user.js](https://raw.githubusercontent.com/TurboCheetah/free-agario-bots/master/free-agario-bots.vanilla.user.js) into Tampermonkey and save
+5. Go to [agar.io](https://agar.io) and click connect
+6. Click play and then connect
 
 VPS
 -------
