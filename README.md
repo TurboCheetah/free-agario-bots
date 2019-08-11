@@ -1,4 +1,5 @@
-# free-agario-bots ![Discord Shield](https://discordapp.com/api/guilds/601142455383097400/widget.png?style=shield)
+# free-agario-bots
+![Discord Shield](https://discordapp.com/api/guilds/601142455383097400/widget.png?style=shield)
 Free open source agar.io bots
 
 ## Usage
