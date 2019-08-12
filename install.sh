@@ -8,6 +8,8 @@ echo -e "${GREEN}[INFO] Updating apt repositories${NC}"
 sudo apt update
 echo -e "${GREEN}INFO] Installing required packages${NC}"
 sudo apt install nodejs npm git
+echo -e "${GREEN}[INFO] Opening port 1337${NC}"
+sudo ufw allow 1337
 echo -e "${GREEN}[INFO] Cloning git repository${NC}"
 git clone https://github.com/TurboCheetah/free-agario-bots.git
 cd free-agario-bots
