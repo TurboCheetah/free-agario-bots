@@ -7,7 +7,11 @@ GREEN='\e[92m'
 echo -e "${GREEN}[INFO] Updating apt repositories${NC}"
 sudo apt update
 echo -e "${GREEN}INFO] Installing required packages${NC}"
-sudo apt install nodejs npm git
+sudo apt install git
+cd ~
+curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs
 echo -e "${GREEN}[INFO] Opening port 1337${NC}"
 sudo ufw allow 1337
 echo -e "${GREEN}[INFO] Cloning git repository${NC}"
