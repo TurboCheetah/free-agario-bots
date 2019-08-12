@@ -13,6 +13,8 @@ curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt install nodejs
 echo -e "${GREEN}[INFO] Opening port 1337${NC}"
+sudo ufw enable
+sudo ufw allow OpenSSH
 sudo ufw allow 1337
 echo -e "${GREEN}[INFO] Cloning git repository${NC}"
 git clone https://github.com/TurboCheetah/free-agario-bots.git
