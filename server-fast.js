@@ -191,7 +191,7 @@ class Bot {
                 setTimeout(() => {
                     userBots.push(new Bot())
                     if(userBots.includes(this)) userBots.splice(userBots.indexOf(this), 1)
-                }, 2000)
+                }, 2500)
                 break
             case 241:
                 this.decryptionKey = reader.readInt32()
