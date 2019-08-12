@@ -35,10 +35,10 @@ VPS
 8. Follow the same steps explained on `Windows` section for installing userscript and put your VPS IP on `window.SERVER_HOST` on the userscript settings
 9. Go to [agar.io](https://agar.io) and click "Connect" button
 10. On top right of your browser you will see a shield with a red mark, click there and then click "Allow unsafe scripts"
-11. After agar.io loads click "Connect" button again
+11. After agar.io loads click "Connect" button again, the status should say "Connected"
 12. Create party and click "Start Bots" button
 13. To stop bots click the "Stop Bots" button and wait 30 seconds for the process to close
-14. To run the bots again just run `node server.js` or `node server-fast.js`, click "Connect" button and then click "Start Bots" button
+14. To run the bots again just run `node server`, make sure you "Allowed unsafe scripts", click "Connect" button and then click "Start Bots" button
 
 ## Captcha
 If you get a captcha you need to change your IP. You can do so by:
