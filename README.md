@@ -44,7 +44,7 @@ VPS
 If you get a captcha you need to change your IP. You can do so by:
 - restarting your router (only if you have a dynamic ip)
 - connecting to a vpn or different vpn server
-    - Use either (ProtonVPN)[https://protonvpn.com] or (PureVPN)[https://purevpn.com] (contact Turbo - ターボ#2665 on Discord to get PureVPN for $15/yr) 
+    - Use either [ProtonVPN](https://protonvpn.com) or [PureVPN](https://purevpn.com) (contact Turbo - ターボ#2665 on Discord to get PureVPN for $15/yr) 
 
 ## Donate
 PayPal: nelthedeveloper@gmail.com
